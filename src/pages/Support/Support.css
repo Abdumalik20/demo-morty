@@ -1,0 +1,44 @@
+.support {
+  height: 60vh;
+  background-color: #202329;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  justify-content: center;
+}
+
+.support_title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.support_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+
+.maintain {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.buy_section {
+  background-color: orange;
+  width: 170px;
+  padding: 10px 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+  text-decoration: none;
+}
+
+.buy_text {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}

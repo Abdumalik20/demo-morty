@@ -1,0 +1,77 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h4 {
+  color: grey;
+}
+
+h1:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.grid_container {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+}
+
+.hero_info {
+  height: 100%;
+  width: 60%;
+  background-color: rgb(60, 62, 68);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 12px;
+  gap: 15px 0;
+  color: white;
+}
+
+.hero_type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+
+.circle_red {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.circle_green {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: rgb(41, 219, 41);
+}
+
+.circle_unknown {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: rgba(27, 6, 55, 0.677);
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero_image {
+  height: 100%;
+}

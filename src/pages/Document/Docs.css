@@ -1,0 +1,10 @@
+.docs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: #202329;
+    padding:  80px;
+    color: white;
+}
+

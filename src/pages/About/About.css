@@ -1,0 +1,43 @@
+.about {
+  background-color: #202329;
+  height: 60vh;
+  padding: 70px;
+  color: white;
+}
+
+.about_title {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.aim {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  font-size: 18px;
+}
+
+.check_out {
+  width: 355px;
+  color: white;
+  text-decoration-color: orange;
+}
+
+.check_out:hover {
+  color: #e36414;
+  text-decoration: none;
+}
+
+.author {
+  margin-top: 20px;
+}
+
+.external_link {
+  text-decoration-color: orange;
+  color: white;
+}
+
+.external_link:hover {
+  text-decoration: none;
+  color: #e36414;
+}
