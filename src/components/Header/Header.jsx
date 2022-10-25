@@ -8,7 +8,6 @@ function Header() {
       <div className="links">
         <div className="logo">
           <Link to="/">
-            {" "}
             <img src={logo} alt="logo" />
           </Link>
         </div>

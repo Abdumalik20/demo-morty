@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
+img {
+  height: 100%;
+  width: 100%;
+}
+
 .header {
   height: 40vh;
   padding: 20px 50px;
   background-color: rgb(246, 235, 235);
+  /* position: sticky;
+  top: 0; */
 }
 
 .links {
@@ -62,3 +69,4 @@
   font-size: 50px;
   font-weight: 700;
 }
+

@@ -1,10 +1,54 @@
 .home {
-  padding: 50px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 25px;
-  justify-content: center;
-  align-items: center;
   background-color: #202329;
+  padding: 50px;
+}
+
+.search {
+  display: flex;
+  gap: 0 10px;
+}
+
+.search_icon {
+  height: 40px;
+  width: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.home_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.not_found {
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+  height: 30.1vh;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+  margin-top: 20px;
+}
+
+.btn_color {
+  padding: 5px;
+  width: 100px;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.input {
+  margin-bottom: 20px;
+  width: 250px;
+  padding: 8px;
+  outline: none;
 }

@@ -1,0 +1,74 @@
+.card {
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  transition: all;
+}
+
+.card:hover {
+  box-shadow: rgba(225, 8, 8, 0.768) 0px 19px 38px,
+    rgba(28, 200, 15, 0.407) 0px 15px 12px;
+  cursor: pointer;
+  transform: translateY(-2px);
+  transition: ease-in-out 0.5s;
+}
+
+.card_img {
+  background-color: aquamarine;
+  height: 250px;
+  width: 300px;
+}
+
+.card_img img {
+  height: 100%;
+  width: 100%;
+}
+
+.card_text {
+  background-color: #2d323b;
+  height: 250px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.card_text:hover {
+  background-color: #52b788;
+  color: black;
+  height: 250px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.name,
+.gender,
+.species,
+.location,
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #e5e5e5;
+}
+
+.alive,
+.dead,
+.unknown {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.dead {
+  background-color: red;
+}
+
+.unknown {
+  background-color: blue;
+}
